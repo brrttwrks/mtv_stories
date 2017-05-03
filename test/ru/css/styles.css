@@ -50,43 +50,92 @@ table {
 /* Story Styles XX */
 
 html {
+  box-sizing: border-box;
 	font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body {
   font-size: 62.5%; /* 1em = 10px */
 }
 article {
-	flex-direction: column;
-	width: 100%;
 }
 article header {
   position: relative;
+	font-family: Sans-Serif;
 }
 article header figure img {
 	width: 100%
 }
 article header h1 {
-	position: absolute;
-	top: 60%;
-	font-size: 7em;
 	text-transform: uppercase;
-	margin: 0 15%;
-	font-weight: 700;
 	font-family: Sans-Serif;
-	color: #fff;
-}
-article header h2 {
-	font-size: 3em;
-}
-section {
-	width: 100%;
+	color: #000;
 }
 section h3 {
-	font-size: 2.5em;
+	font-family: Sans-Serif;
 }
-section p {
-	font-size: 1.5em;
-	line-height: 1.5em;
+figcaption {
+	font-style: italic;
+	color: #262626;
+	margin: 0.5vh 0 0 2vw;
 }
 
-@media
+
+
+@media only screen and
+  (min-device-width: 1024px) {
+		article header h1 {
+	    position: absolute;
+			top: 40%;
+			font-size: 7em;
+			margin: 0 0% 0 20%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 1% 20%;
+			font-size: 4em;
+		}
+		section h3 {
+			margin: 1% 25%;
+			font-size: 2.5em;
+		}
+		section p {
+			margin: 1% 26%;
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 26%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 70%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 1.2em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
