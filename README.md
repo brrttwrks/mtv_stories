@@ -2,8 +2,4 @@
 
 Thanks to the support of:
 
-<a class="logo" href="https://www.browserstack.com/" title="BrowserStack">
-   <img alt="BrowserStack Logo"
-        src="browserstack.svg"
-        height="50">
-</a>
+![BrowserStack Logo](https://raw.githubusercontent.com/brrttwrks/mtv_stories/master/browserstack.svg)
