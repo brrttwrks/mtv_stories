@@ -1,6 +1,5 @@
 # A repository for developing custom stories for MTV
 
-Thanks to the support of:
+Thanks to the support of [BrowserStack](https://www.browserstack.com) for supporting our project!
 
 ![BrowserStack](browserstack.png "BrowserStack")
-[https://www.browserstack.com](https://www.browserstack.com)
