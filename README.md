@@ -2,4 +2,5 @@
 
 Thanks to the support of:
 
-![BrowserStack](browserstack?raw=true "BrowserStack")
+![BrowserStack](browserstack.png "BrowserStack")
+[https://www.browserstack.com](https://www.browserstack.com)
