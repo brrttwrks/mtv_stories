@@ -1,0 +1,375 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Story Styles XX */
+body {
+	width: 100%;
+	font-size: 16px;
+}
+h1, h2, h3 {
+	display: block;
+	font-family: Sans-Serif;
+	font-weight: 600;
+}
+img {
+	width: 100%;
+	display: block;
+}
+iframe {
+	width: 100%;
+}
+p {
+  margin: 1em 30%;
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+p:last-child {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: 600;
+}
+a {
+	color: #d42f33;
+  text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+blockquote {
+	margin: 0 30%;
+	padding: 1em 1em 1em 1em;
+  border-left: 5px solid #d42f33;
+	font-size: 1.4em;
+  font-weight: bold;
+}
+article {
+	margin-bottom: 5% !important;
+}
+
+@media only screen
+  and (min-device-width: 980px) {
+		header figure {
+			position: relative;
+			width: 100%;
+		}
+		header h1 {
+			position: absolute;
+			top: 60vh;
+			left: 0;
+			margin-left: 15vw;
+			margin-right: 30vw
+			text-align: left;
+			color: #fff;
+			font-size: 5em;
+			font-weight: 900;
+			font-family: Sans-Serif;
+		}
+		section {
+			display: block;
+		}
+		h2 {
+			margin-top: 0.75em;
+			margin-bottom: 0.75em;
+			font-size: 2.5em;
+		}
+		section h1, article h2, section h3, p, blockquote {
+			margin-left: 30%;
+			margin-right: 30%;
+		}
+		section h1 {
+			margin-top: 0.75em;
+			margin-bottom: 0.75em;
+			font-size: 2.5em;
+		}
+		section h3 {
+			margin-top: 0.75em;
+			margin-bottom: 0.75em;
+			font-size: 1.7em;
+		}
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			font-size: 1.2em;
+		}
+		figure.align-full {
+			margin-bottom: 4vh;
+		}
+
+		figure.align-right {
+      margin-right: 20%;
+			margin-left: 0;
+			padding-left: 1vw;
+			width: 10vw;
+			float: right;
+		}
+		figure.align-left {
+			margin-right: 0;
+			margin-left: 20%;
+			padding-right: 1vw;
+			width: 10vw;
+			float: left;
+		}
+		figcaption {
+			margin: 1vh 0vw 1vh 1vw;
+			color: #464646;
+			font-size: 0.8em;
+		}
+		img.align-left {
+			display: inline-block;
+			width: 10vw;
+			float: left;
+			padding: 0 1vw 1vh 0;
+		}
+		img.align-right {
+			width: 10vw;
+			float: right;
+			padding: 0 0vw 1vh 1vw;
+		}
+		blockquote {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 0.5em 0.5em 0.5em 0.5em;
+			font-size: 1.3em;
+		}
+}
+
+@media only screen
+  and (max-device-width: 800px) {
+		header figure {
+			position: relative;
+			width: 100%;
+		}
+		header h1 {
+			position: absolute;
+			top: 20vh;
+			left: 0;
+			margin-left: 15vw;
+			margin-right: 30vw
+			text-align: left;
+			color: #fff;
+			font-size: 3em;
+			font-weight: 900;
+			font-family: Sans-Serif;
+		}
+		section {
+			display: block;
+		}
+		article h2, section h1, section h3, p, blockquote {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		article h1 {
+			margin-top: 0.75em;
+			margin-bottom: 0.75em;
+			font-size: 3em;
+		}
+		article h2 {
+			margin-top: 0.75em;
+			margin-bottom: 0.75em;
+			font-size: 2.5em;
+		}
+		article h3 {
+			font-size: 1.7em;
+		}
+		header figure img {
+			position: relative;
+		}
+		header figure h1 {
+			position: absolute;
+			top: 20vh;
+			left: 0;
+			margin-left: 15vw;
+			margin-right: 15vw;
+			text-align: left;
+			color: #fff;
+			font-size: 3em;
+			font-weight: 900;
+			font-family: Sans-Serif;
+		}
+		figure.align-full {
+			margin-bottom: 4vh;
+		}
+		figure.align-right {
+      margin-right: 15%;
+			margin-left: 0;
+			padding-left: 1vw;
+			width: 12vw;
+			float: right;
+		}
+		figure.align-left {
+			margin-right: 0;
+			margin-left: 10%;
+			padding-right: 2vw;
+			width: 12vw;
+			float: left;
+		}
+		figcaption {
+			margin: 1vh 0vw 1vh 1vw;
+			color: #464646;
+			font-size: 0.8em;
+		}
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			font-size: 1.2em;
+		}
+		p figure img.align-left {
+			width: 20vw;
+			float: left;
+			padding: 0 1vw 1vh 0;
+		}
+		p figure img.align-right {
+			width: 20vw;
+			float: right;
+			padding: 0 0vw 1vh 1vw;
+		}
+		blockquote {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 0.5em 0.5em 0.5em 0.5em;
+			font-size: 1.3em;
+		}
+}
+
+
+@media only screen
+  and (max-device-width: 480px) {
+		header figure {
+			position: relative;
+			width: 100%;
+		}
+		header h1 {
+			position: absolute;
+			top: 5vh;
+			margin-left: 5%;
+			margin-right: 5%;
+			text-align: left;
+
+			font-size: 2em;
+			font-weight: 700;
+			font-family: Sans-Serif;
+		}
+		section {
+			display: block;
+		}
+		article h2, section h1, section h3, p, blockquote {
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		article h2 {
+      font-size: 1.8em;
+		}
+		section h3 {
+			font-size: 1.3em;
+		}
+		header figure img {
+			position: relative;
+		}
+		header figure h1 {
+			position: absolute;
+			top: 20vh;
+			left: 0;
+			margin-left: 15vw;
+			margin-right: 15vw;
+			text-align: left;
+			color: #fff;
+			font-size: 3em;
+			font-weight: 900;
+			font-family: Sans-Serif;
+		}
+		figure.align-full {
+			margin-bottom: 4vh;
+		}
+		figure.align-right {
+      margin-right: 0;
+			margin-left: 0;
+			padding-left: 0;
+			width: 100%;
+			float: none;
+		}
+		figure.align-left {
+			margin-right: 0;
+			margin-left: 0;
+			padding-left: 0;
+			width: 100%;
+			float: none;
+		}
+		figcaption {
+			margin: 1vh 0vw 1vh 1vw;
+			color: #464646;
+			font-size: 0.8em;
+			line-height: 1.2em;
+		}
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			font-size: 1.2em;
+		}
+		p figure img.align-left {
+			width: 20vw;
+			float: left;
+			padding: 0 1vw 1vh 0;
+		}
+		p figure img.align-right {
+			width: 20vw;
+			float: right;
+			padding: 0 0vw 1vh 1vw;
+		}
+		blockquote {
+			margin-top: 1em;
+			margin-bottom: 1em;
+			padding: 0.5em 0.5em 0.5em 0.5em;
+			font-size: 1.3em;
+		}
+}
