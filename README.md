@@ -2,4 +2,4 @@
 
 Thanks to the support of:
 
-![BrowserStack Logo](https://raw.githubusercontent.com/brrttwrks/mtv_stories/master/browserstack.svg)
+![BrowserStack](https://raw.githubusercontent.com/brrttwrks/mtv_stories/master/browserstack.svg "BrowserStack")
