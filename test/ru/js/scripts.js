@@ -1,12 +1,13 @@
 $(document).ready(function() {
   var viewportWidth = $(window).width();
-  var videoHeight = viewportWidth * 0.338;
+  var videoHeight = viewportWidth * 0.5625;
   $('iframe').attr('height', videoHeight);
 });
 
 
 $(window).on('resize', function(){
       var win = $(this);
+      var videoWidth;
 
       if (win.width() > 1024) {
         $('iframe').attr('width', '40vw');
@@ -28,6 +29,6 @@ $(window).on('resize', function(){
         var videoWidth = 40;
       }
 
-      var videoHeight =  videoWidth * 0.338;;
+      var videoHeight =  videoWidth * 0.5625;
       $('iframe').attr('height', videoHeight + 'vh');
 });
