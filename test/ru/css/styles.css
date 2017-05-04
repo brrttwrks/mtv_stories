@@ -284,11 +284,13 @@ a:hover {
 			font-size: 1.1em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 0%%;
 		}
 		figure.video iframe {
-			width: 100%;
+			margin: 0 0%;
+			width: 70vw;
 		}
 }
 
@@ -346,11 +348,13 @@ a:hover {
 			font-size: 1.1em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 0%%;
 		}
 		figure.video iframe {
-			width: 100%;
+			margin: 0 0%;
+			width: 80vw;
 		}
 }
 
@@ -408,11 +412,13 @@ a:hover {
 			font-size: 1.1em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 0%%;
 		}
 		figure.video iframe {
-			width: 100%;
+			margin: 0 0%;
+			width: 90vw;
 		}
 }
 
@@ -472,10 +478,12 @@ a:hover {
 			text-align: center;
 		}
 		figure.video {
-			margin: 0 25%%;
-
+			display: flex;
+			justify-content: center;
+			margin: 0 0%%;
 		}
 		figure.video iframe {
-			margin: 0 25%;
+			margin: 0 0%;
+			width: 90vw;
 		}
 }
