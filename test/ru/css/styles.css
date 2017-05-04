@@ -81,8 +81,19 @@ figcaption {
 	color: #262626;
 	margin: 0.5vh 0 0 2vw;
 }
-
-
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: 600;
+}
+a {
+	color: #d42f33;
+  text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 
 @media only screen and
   (min-device-width: 1024px) {
@@ -90,19 +101,21 @@ figcaption {
 	    position: absolute;
 			top: 40%;
 			font-size: 7em;
-			margin: 0 0% 0 20%;
+			margin: 0 0% 0 15%;
 			font-weight: 700;
 		}
 		article header h2 {
-			margin: 1% 20%;
+			margin: 2% 25%;
 			font-size: 4em;
+			font-weight: 500;
 		}
 		section h3 {
 			margin: 1% 25%;
 			font-size: 2.5em;
+			font-weight: 400;
 		}
 		section p {
-			margin: 1% 26%;
+			margin: 1% 25%;
 			font-size: 1.5em;
 			line-height: 1.5em;
 		}
@@ -114,7 +127,7 @@ figcaption {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-around;
-			margin: 0 26%;
+			margin: 0 25%;
 		}
 		aside.figures figure {
 
@@ -130,6 +143,292 @@ figcaption {
 		}
 		figcaption {
 			font-size: 1.2em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
+
+@media only screen and
+  (min-device-width: 850px) and
+	(max-device-width: 1024px) {
+		article header h1 {
+	    position: absolute;
+			top: 30%;
+			font-size: 5em;
+			margin: 0 0% 0 10%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 1% 25%;
+			font-size: 4em;
+		}
+		section h3 {
+			margin: 2% 25% 1% 25%;
+			font-size: 2.5em;
+		}
+		section p {
+			margin: 1% 25%;
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 25%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 70%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 1.2em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
+
+@media only screen and
+  (min-device-width: 600px) and
+	(max-device-width: 850px) {
+		article header h1 {
+	    position: absolute;
+			top: 30%;
+			font-size: 4em;
+			margin: 0 0% 0 10%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 3% 15%;
+			font-size: 3em;
+		}
+		section h3 {
+			margin: 2% 15% 1% 15%;
+			font-size: 2.2em;
+		}
+		section p {
+			margin: 2% 15%;
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 15%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 70%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 1.1em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
+
+@media only screen and
+  (min-device-width: 400px) and
+	(max-device-width: 600px) {
+		article header h1 {
+	    position: absolute;
+			top: 20%;
+			font-size: 3em;
+			margin: 0 0% 0 10%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 3% 10%;
+			font-size: 2.5em;
+		}
+		section h3 {
+			margin: 2% 10% 1% 10%;
+			font-size: 2em;
+		}
+		section p {
+			margin: 3% 10%;
+			font-size: 1.2em;
+			line-height: 1.6em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 10%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 70%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 1.1em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
+
+@media only screen and
+  (min-device-width: 300px) and
+	(max-device-width: 400px) {
+		article header h1 {
+	    position: absolute;
+			top: 25%;
+			font-size: 2.5em;
+			margin: 0 0% 0 5%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 3% 5%;
+			font-size: 2em;
+		}
+		section h3 {
+			margin: 2% 5% 1% 5%;
+			font-size: 1.8em;
+		}
+		section p {
+			margin: 3% 5%;
+			font-size: 1.2em;
+			line-height: 1.6em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 5%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 70%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 1.1em;
+		}
+		figure.video {
+			margin: 0 0%;
+			width: 100%;
+		}
+		figure.video iframe {
+			width: 100%;
+		}
+}
+
+@media only screen and
+  (min-device-width: 100px) and
+	(max-device-width: 300px) {
+		article header h1 {
+	    position: absolute;
+			top: 10%;
+			font-size: 2em;
+			margin: 0 0% 0 5%;
+			font-weight: 700;
+		}
+		article header h2 {
+			margin: 3% 5%;
+			font-size: 2em;
+		}
+		section h3 {
+			margin: 2% 5% 1% 5%;
+			font-size: 1.5em;
+		}
+		section p {
+			margin: 5% 5%;
+			font-size: 1.2em;
+			line-height: 1.6em;
+		}
+		section figure.align-full {
+			margin: 0 0;
+			width: 100%;
+		}
+		aside.figures {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 0 0%;
+		}
+		aside.figures figure {
+
+  	}
+		aside.figures figure img {
+			width: 100%;
+			margin: 2% 1%;
+		}
+		aside.figures figure figcaption {
+			width: 70%;
+		}
+		section figure.align-full img {
+			width: 100%;
+		}
+		figcaption {
+			font-size: 0.8em;
 		}
 		figure.video {
 			margin: 0 0%;
