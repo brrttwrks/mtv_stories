@@ -145,11 +145,9 @@ a:hover {
 			font-size: 1.2em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
-		}
-		figure.video iframe {
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 26%;
 		}
 }
 
@@ -202,11 +200,9 @@ a:hover {
 			font-size: 1.2em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
-		}
-		figure.video iframe {
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 26%;
 		}
 }
 
@@ -259,13 +255,11 @@ a:hover {
 			font-size: 1.1em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 15%;
 		}
-		figure.video iframe {
-			width: 100%;
-		}
-}
+	}
 
 @media only screen and
   (min-device-width: 400px) and
@@ -316,11 +310,9 @@ a:hover {
 			font-size: 1.1em;
 		}
 		figure.video {
-			margin: 0 0%;
-			width: 100%;
-		}
-		figure.video iframe {
-			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin: 0 0;
 		}
 }
 
