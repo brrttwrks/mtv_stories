@@ -1,7 +1,9 @@
 section.video {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 section.video iframe, section.video object, section.video embed {
