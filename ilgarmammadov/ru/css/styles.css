@@ -84,13 +84,10 @@ section h3 {
 }
 figure.video {
 	position: relative;
-	height: 0;
-	overflow: hidden;
-}
-figure.video::after {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
-	display: block;
+	height: 0;
+	overflow: hidden;
 }
 figure.video iframe {
 	position: absolute;
