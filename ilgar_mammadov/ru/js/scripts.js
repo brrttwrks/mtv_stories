@@ -1,11 +1,9 @@
-
-
-// Fix Youtube width/height
 $(document).ready(function() {
   var viewportWidth = $(window).width();
   var videoHeight = viewportWidth * 0.5625;
   $('iframe').attr('height', videoHeight);
 });
+
 
 $(window).on('resize', function(){
       var win = $(this);
