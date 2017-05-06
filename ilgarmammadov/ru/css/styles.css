@@ -91,7 +91,6 @@ figure.video::after {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	display: block;
-	content: '';
 }
 figure.video iframe {
 	position: absolute;
