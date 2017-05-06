@@ -174,15 +174,6 @@ iframe {
 		figcaption {
 			font-size: 1.2em;
 		}
-		figure.video {
-			display: flex;
-			justify-content: center;
-			margin: 0 20%%;
-		}
-		figure.video iframe {
-			margin: 0 20%;
-			width: 40vw;
-		}
 }
 
 @media only screen and
@@ -237,15 +228,6 @@ iframe {
 		}
 		figcaption {
 			font-size: 1.2em;
-		}
-		figure.video {
-			display: flex;
-			justify-content: center;
-			margin: 0 0%%;
-		}
-		figure.video iframe {
-			margin: 0 0%;
-			width: 50vw;
 		}
 }
 
